@@ -15,14 +15,15 @@ The project includes preprocessing, prediction, and visualization using OpenCV a
 ---
 
 ## 📁 **Project Structure**
-finalProject/
-│── ccn-train.py # Model training script
-│── ccn-test.py # Image prediction script
-│── cat_dog_classifier.h5 # (not included in repo)
-│── train/ # Training dataset (excluded)
-│── test/ # Test dataset (excluded)
-│── .gitignore
-
+| File/Directory | Description | Included in Repo? |
+| :--- | :--- | :---: |
+| `finalProject/` | Root directory of the project. | **Yes** |
+| ├── **ccn-train.py** | Script for **training** the CNN model. | **Yes** |
+| ├── **ccn-test.py** | Script for making **predictions** on new images. | **Yes** |
+| ├── `cat_dog_classifier.h5` | The **trained model weights** (HDF5 format). | **No** |
+| ├── `train/` | Directory containing the **training dataset** (images). | **No** |
+| ├── `test/` | Directory containing the **test/validation dataset** (images). | **No** |
+| └── `.gitignore` | Specifies intentionally untracked files to ignore. | **Yes** |
 
 ⚠️ The model (.h5) and dataset folders are **excluded** due to GitHub file size limits.
 
